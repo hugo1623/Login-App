@@ -55,7 +55,7 @@ export class LoginComponent implements OnInit {
         allowOutsideClick: false,
         icon: 'error',
         title:'Error al autenticar',
-        text: err.error.error.message
+        text: 'err.error.error.message'
       });
     });  
 
