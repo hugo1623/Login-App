@@ -10,6 +10,7 @@ import { RegistroComponent } from './pages/registro/registro.component';
 import { HomeComponent } from './pages/home/home.component';
 import { LoginComponent } from './pages/login/login.component';
 import { ModelsComponent } from './models/models.component';
+import { SidebarComponent } from './pages/sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ModelsComponent } from './models/models.component';
     RegistroComponent,
     HomeComponent,
     LoginComponent,
-    ModelsComponent
+    ModelsComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
